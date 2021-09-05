@@ -66,15 +66,14 @@ Labels:
 	<li>NO: YES:classified_as_in_question_6</li>
 </ol>
 
-
 ### Statistics
-=============<br/>
-Some statistics about the dataset
 Initial distribution of the annotated dataset
   * Arabic data: 4542 tweets
   * Bulgarian data: 4966 tweets
   * Dutch data: 3697 tweets
   * English data: 2665 tweets
+
+More detail is available in the paper[1] [download](https://arxiv.org/abs/2005.00033).
 
 ## Questions with Labels
 Below is the list of the questions and the possible labels (answers).
@@ -148,7 +147,7 @@ See the paper below or the above micromappers links for detailed definition of t
 </ol>
 
 ## List of Versions
-=================== <br/>
+
 v1.0 [2021/11/05]: initial distribution of the annotated dataset
 * Arabic data: 4966 tweets
 * English data: 4542 tweets
@@ -164,10 +163,6 @@ Please see the dataset directory for get the tweet ids and labels. To crawl twee
 * [Docnow (Desktop application)](https://github.com/docnow/hydrator)
 
 In case if you do not have twitter account or access credentials please create a [Twitter Account](https://twitter.com/). Then follow this guide to retrieve access credentials for the [Twitter API](https://developer.twitter.com/en/docs/authentication/oauth-1-0a/obtaining-user-access-tokens).
-
-### Statistics
-=============<br/>
-Statistics of the dataset is available in the paper[1] [download](https://arxiv.org/abs/2005.00033).
 
 
 
