@@ -12,7 +12,7 @@ __Table of contents:__
 - [Questions with Labels](#questions-with-labels)
 - [List of Versions](#list-of-versions)
 - [Download](#download)
-- [Experiments](#bin)
+- [Experiments](bin)
 - [Publication](#publication)
 - [Credits](#credits)
 - [Licensing](#licensing)
@@ -34,7 +34,7 @@ The directory contains the following files and sub-directories:
   * **data/english/**  
   * **data/multilang/:** This directory contains multilingual data (tweets from all languages are combined in different splits for both binary and multiclass settings).
 2. data/LICENSE_CC_BY_NC_SA_4.0.txt: license information
-3. **bin/(#bin)** Please see readme for details
+3. **bin/(bin)** Please see readme for details
 4. Readme.md this file
 
 
@@ -163,6 +163,7 @@ Please see the dataset directory for get the tweet ids and labels. To crawl twee
 * [Twarc (Python)](https://github.com/DocNow/twarc#dehydrate)
 * [Docnow (Desktop application)](https://github.com/docnow/hydrator)
 
+In case if you do not have twitter account or access credentials please create a [Twitter Account](https://twitter.com/). Then follow this guide to retrieve access credentials for the [Twitter API](https://developer.twitter.com/en/docs/authentication/oauth-1-0a/obtaining-user-access-tokens).
 
 ### Statistics
 =============<br/>
