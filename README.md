@@ -34,7 +34,7 @@ The directory contains the following files and sub-directories:
   * **data/english/**  
   * **data/multilang/:** This directory contains multilingual data (tweets from all languages are combined in different splits for both binary and multiclass settings).
 2. data/LICENSE_CC_BY_NC_SA_4.0.txt: license information
-3. **bin/(bin)** Please see readme for details
+3. **[bin/](bin)** Please see readme for details
 4. Readme.md this file
 
 
