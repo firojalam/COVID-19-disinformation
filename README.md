@@ -9,6 +9,7 @@ __Table of contents:__
   - [Directory Structure](#directory-structure)
   - [Examples](#examples)
   - [Statistics](#statistics)
+  - [Twitter Batch compliance](#twitter-batch-compliance)
 - [Questions with Labels](#questions-with-labels)
 - [List of Versions](#list-of-versions)
 - [Download](#download)
@@ -28,14 +29,15 @@ The directory contains the following files and sub-directories:
 
 
 1. The following directories contains different data splits (train/dev/test) for both binary and multiclass. Each file is tab-separated, consists of tweet_id, and labels for Q1-7. For privacy concern we are not able to release tweet text and associated json objects.
-  * **data/arabic/**
-  * **data/bulgarian/**
-  * **data/dutch/**
-  * **data/english/**  
-  * **data/multilang/:** This directory contains multilingual data (tweets from all languages are combined in different splits for both binary and multiclass settings).
-2. data/LICENSE_CC_BY_NC_SA_4.0.txt: license information
+  * **data/arabic/:** contains data plits for Arabic.
+  * **data/bulgarian/:** contains data plits for Bulgarian.
+  * **data/dutch/:** contains data plits for Dutch.
+  * **data/english/:** contains data plits for English.
+  * **data/multilang/:** contains multilingual data (tweets from all languages are combined in different splits for both binary and multiclass settings).
+2. **data/LICENSE_CC_BY_NC_SA_4.0.txt:** license information
 3. **[bin/](bin)** Please see readme for details
-4. Readme.md this file
+4. **Readme.md** this file
+5. **tweet_ids_with_compliance_status.json:** Contains tweet ids with their complience status.  
 
 
 ### Examples
@@ -67,6 +69,7 @@ Labels:
 </ol>
 
 ### Statistics
+============<br/>
 Initial distribution of the annotated dataset
   * Arabic data: 4542 tweets
   * Bulgarian data: 4966 tweets
@@ -74,6 +77,12 @@ Initial distribution of the annotated dataset
   * English data: 2665 tweets
 
 More detail is available in the paper[1] [download](https://arxiv.org/abs/2005.00033).
+
+### Twitter Batch compliance
+============<br/>
+Tweets might have been deleted for many reasons:  
+[https://developer.twitter.com/en/docs/twitter-api/compliance/batch-compliance/introduction](https://developer.twitter.com/en/docs/twitter-api/compliance/batch-compliance/introduction)
+For such cases, it is necessary to maintain such compliance.
 
 ## Questions with Labels
 Below is the list of the questions and the possible labels (answers).
@@ -166,8 +175,8 @@ In case if you do not have twitter account or access credentials please create a
 
 
 
-## Publication:
-Please cite the following paper if you are using the data or annotation guidelines
+## Publications:
+Please cite the following papers if you are using the data or annotation guidelines
 
 1. *Firoj Alam and Shaden Shaar and Fahim Dalvi and Hassan Sajjad and Alex Nikolov and Hamdy Mubarak and Giovanni Da San Martino and Ahmed Abdelali and Nadir Durrani and Kareem Darwish and Abdulaziz Al-Homaid and Wajdi Zaghouani and Tommaso Caselli and Gijs Danoe and Friso Stolk and Britt Bruntink and Preslav Nakov, "Fighting the COVID-19 Infodemic: Modeling the Perspective of Journalists, Fact-Checkers, Social Media Platforms, Policy Makers, and the Society", Findings of EMNLP 2021,  [download](https://arxiv.org/abs/2005.00033).*
 
