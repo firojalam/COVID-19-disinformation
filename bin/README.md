@@ -11,7 +11,7 @@ To better organize things please copy the data and scripts into *exp_covid19_dis
 ```bash
 cd /your_path/exp_covid19_disinfo/
 conda env create -f bin/covid_exp_env.yaml
-source activate $path_to_your_env/transformers
+conda activate covid
 ```
 
 ## Dataset
