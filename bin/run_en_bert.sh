@@ -1,9 +1,7 @@
 #! /bin/bash
 
 
-source your_path/bin/activate your_path/envs/transformers
-
-HOME_DIR="/your_path/exp_covid19_disinfo"
+HOME_DIR=$(dirname $(realpath -s $0))
 
 
 train=$HOME_DIR/"data/english/covid19_disinfo_english_multiclass_train.tsv"
